@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4900B5131E67858700F01736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900B5121E67858700F01736 /* AppDelegate.swift */; };
+		4900B5151E67858700F01736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900B5141E67858700F01736 /* ViewController.swift */; };
+		4900B5181E67858700F01736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4900B5161E67858700F01736 /* Main.storyboard */; };
+		4900B51A1E67858700F01736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4900B5191E67858700F01736 /* Assets.xcassets */; };
+		4900B51D1E67858700F01736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4900B51B1E67858700F01736 /* LaunchScreen.storyboard */; };
+		4900B5261E67873800F01736 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4900B5251E67873800F01736 /* QuartzCore.framework */; };
+		4900B5281E678C0700F01736 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4900B5271E678C0700F01736 /* Shaders.metal */; };
+		4900B52A1E6794A800F01736 /* SizeOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900B5291E6794A800F01736 /* SizeOF.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4900B50F1E67858700F01736 /* HelloMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4900B5121E67858700F01736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4900B5141E67858700F01736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4900B5171E67858700F01736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4900B5191E67858700F01736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4900B51C1E67858700F01736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4900B51E1E67858700F01736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4900B5251E67873800F01736 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4900B5271E678C0700F01736 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		4900B5291E6794A800F01736 /* SizeOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeOF.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4900B50C1E67858600F01736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4900B5261E67873800F01736 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4900B5061E67858600F01736 = {
+			isa = PBXGroup;
+			children = (
+				4900B5111E67858700F01736 /* HelloMetal */,
+				4900B5101E67858700F01736 /* Products */,
+				4900B5241E67873800F01736 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4900B5101E67858700F01736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4900B50F1E67858700F01736 /* HelloMetal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4900B5111E67858700F01736 /* HelloMetal */ = {
+			isa = PBXGroup;
+			children = (
+				4900B5121E67858700F01736 /* AppDelegate.swift */,
+				4900B5141E67858700F01736 /* ViewController.swift */,
+				4900B5271E678C0700F01736 /* Shaders.metal */,
+				4900B5161E67858700F01736 /* Main.storyboard */,
+				4900B5191E67858700F01736 /* Assets.xcassets */,
+				4900B51B1E67858700F01736 /* LaunchScreen.storyboard */,
+				4900B51E1E67858700F01736 /* Info.plist */,
+				4900B5291E6794A800F01736 /* SizeOF.swift */,
+			);
+			path = HelloMetal;
+			sourceTree = "<group>";
+		};
+		4900B5241E67873800F01736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4900B5251E67873800F01736 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4900B50E1E67858600F01736 /* HelloMetal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4900B5211E67858700F01736 /* Build configuration list for PBXNativeTarget "HelloMetal" */;
+			buildPhases = (
+				4900B50B1E67858600F01736 /* Sources */,
+				4900B50C1E67858600F01736 /* Frameworks */,
+				4900B50D1E67858600F01736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMetal;
+			productName = HelloMetal;
+			productReference = 4900B50F1E67858700F01736 /* HelloMetal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4900B5071E67858600F01736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Superbderrick;
+				TargetAttributes = {
+					4900B50E1E67858600F01736 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 4900B50A1E67858600F01736 /* Build configuration list for PBXProject "HelloMetal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4900B5061E67858600F01736;
+			productRefGroup = 4900B5101E67858700F01736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4900B50E1E67858600F01736 /* HelloMetal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4900B50D1E67858600F01736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4900B51D1E67858700F01736 /* LaunchScreen.storyboard in Resources */,
+				4900B51A1E67858700F01736 /* Assets.xcassets in Resources */,
+				4900B5181E67858700F01736 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4900B50B1E67858600F01736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4900B5281E678C0700F01736 /* Shaders.metal in Sources */,
+				4900B5151E67858700F01736 /* ViewController.swift in Sources */,
+				4900B5131E67858700F01736 /* AppDelegate.swift in Sources */,
+				4900B52A1E6794A800F01736 /* SizeOF.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4900B5161E67858700F01736 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4900B5171E67858700F01736 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4900B51B1E67858700F01736 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4900B51C1E67858700F01736 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4900B51F1E67858700F01736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4900B5201E67858700F01736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4900B5221E67858700F01736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HelloMetal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = superbderrick.tistory.com.HelloMetal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4900B5231E67858700F01736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HelloMetal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = superbderrick.tistory.com.HelloMetal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4900B50A1E67858600F01736 /* Build configuration list for PBXProject "HelloMetal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4900B51F1E67858700F01736 /* Debug */,
+				4900B5201E67858700F01736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4900B5211E67858700F01736 /* Build configuration list for PBXNativeTarget "HelloMetal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4900B5221E67858700F01736 /* Debug */,
+				4900B5231E67858700F01736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4900B5071E67858600F01736 /* Project object */;
+}
